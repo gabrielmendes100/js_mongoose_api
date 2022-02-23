@@ -14,6 +14,10 @@ const JogadorSchema = new mongoose.Schema(
             required: true,
             default: 0
         },
+        data_cadastro: {
+            type: Date,
+            required: true
+        },
         data_ultimo_login: {
             type: Date,
             required: false
