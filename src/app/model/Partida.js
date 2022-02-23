@@ -14,14 +14,7 @@ const PartidaSchema = new mongoose.Schema(
         fim: {
             type: Date,
             required: false
-        },
-        round: [
-            {
-                type: mongoose.Schema.Types.ObjectId,
-                ref: "Round"
-            }
-        ]
-
+        }
     },
     {
         timestamps: true
